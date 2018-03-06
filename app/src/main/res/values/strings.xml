@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ai la trieu phu</string>
+    <string name="btn_start">Bắt đầu</string>
+    <string name="btn_hightScore">Điểm cao</string>
+    <string name="btn_setting">Cài đặt</string>
+    <string name="btn_introduce">Giới thiệu</string>
+    <string name="btn_help5050">50:50</string>
+    <string name="txv_your_score">Bạn nhận được số tiền: </string>
+
+</resources>

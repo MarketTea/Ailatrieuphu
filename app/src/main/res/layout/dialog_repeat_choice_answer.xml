@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#652874ff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bạn có chắc chắn chọn phương án A"
+            android:textColor="@color/colorWhite"
+            android:textSize="21sp" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txv_message"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/btn_cancel"
+            android:background="@color/colorPrimary"
+            android:padding="10dp"
+            android:text="Chắc chắn"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txv_message"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Chọn lại"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

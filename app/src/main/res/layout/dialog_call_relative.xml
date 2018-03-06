@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imb_messi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/messi"/>
+
+        <ImageButton
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imb_messi"
+            android:id="@+id/imb_tamLe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/me"/>
+
+        <ImageButton
+            android:layout_below="@+id/imb_messi"
+            android:layout_marginTop="10dp"
+            android:id="@+id/imb_elonMusk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/elon_musk"/>
+
+        <ImageButton
+            android:layout_below="@+id/imb_messi"
+            android:layout_toRightOf="@+id/imb_elonMusk"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imb_markZuckerberg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mark_zuckerberg"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

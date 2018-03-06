@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    tools:context="com.example.itcde.ailatrieuphu.activity.MainActivity">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:id="@+id/imv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_option"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_below="@+id/imv_logo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_start"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_option"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_below="@id/btn_start"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_hightScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_hightScore"/>
+
+    <Button
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_option"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:id="@+id/btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_setting"
+        android:layout_below="@+id/btn_hightScore"
+        android:layout_alignLeft="@+id/btn_introduce"
+        android:layout_alignStart="@+id/btn_introduce" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_option"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:layout_below="@id/btn_setting"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_introduce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_introduce"/>
+
+</RelativeLayout>
+
